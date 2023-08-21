@@ -1,0 +1,158 @@
+
+.swiper-slide {
+  margin: 0 !important;
+  width: max-content !important;
+}
+
+
+
+
+.swiper-slide img {
+  max-width: 384px;
+  height: auto;
+  padding: 40px 0;
+}
+
+/* Sticky navigation bar styles */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1000;
+  height: 60px;
+  padding: 40px;
+}
+
+.sticky-nav a {
+  color: white;
+}
+
+.sticky-nav a:hover {
+  color: #f8d82e;
+}
+
+/* Roadmap section styles */
+.roadmap-stop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.roadmap-marker {
+  width: 20px;
+  height: 20px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.roadmap-marker::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #4299e1;
+}
+
+#roadmap-item {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 50px;
+}
+#card {
+  padding: 20px;
+  flex: 1 1 0%;
+  border-radius: 12px;
+  border: solid 4px  rgba(59 130 246/ 1);
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+#line {
+  width: 8px;
+  margin: 0 auto;
+  background-color: rgba(59 130 246/ 1);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+#card h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(59 130 246/ 1);
+  border-radius: 50%;
+  display: block;
+  margin-left: -11px;
+}
+
+#faqs {
+  background-color: rgb(239 246 255);
+ }
+
+.faq {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.faq-question {
+  cursor: pointer;
+  padding-left: 100px;
+padding-right: 40px;
+padding-top: 40px;
+padding-bottom: 0px;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 34px;
+  font-weight: 400;
+ 
+}
+
+.faq-answer {
+  display: none;
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.sample-image {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 10px auto; /* Center the image horizontally with some margin */
+}
+
+
+.faq-question {
+  position: relative; /* Required for absolute positioning of the icon */
+  padding-right: 1rem; /* Add some space for the icon */
+}
+
+/* Styling for the FontAwesome icon */
+.faq-question i {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease; /* Add a smooth transition effect */
+}
+
+/* Animation for the FontAwesome icon */
+.faq-question.open i {
+  transform: translateY(-50%) rotate(180deg); /* Rotate the icon */
+}
