@@ -31,6 +31,8 @@
   color: #f8d82e;
 }
 
+
+
 /* Roadmap section styles */
 .roadmap-stop {
   display: flex;
@@ -106,10 +108,7 @@
 
 .faq-question {
   cursor: pointer;
-  padding-left: 100px;
-padding-right: 40px;
 padding-top: 40px;
-padding-bottom: 0px;
   border: none;
   width: 100%;
   text-align: left;
@@ -120,8 +119,6 @@ padding-bottom: 0px;
 
 .faq-answer {
   display: none;
-  padding-left: 100px;
-  padding-right: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: 1px;
