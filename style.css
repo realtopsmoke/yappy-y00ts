@@ -148,30 +148,4 @@
 
 
 
-.sample-image {
-  width: 500px;
-  height: 500px;
-  display: block;
-  margin: 10px auto; /* Center the image horizontally with some margin */
-}
-
-
-.faq-question {
-  position: relative; /* Required for absolute positioning of the icon */
-  padding-right: 1rem; /* Add some space for the icon */
-}
-
-/* Styling for the FontAwesome icon */
-.faq-question i {
-  position: absolute;
-  top: 50%;
-  right: 50px;
-  transform: translateY(-50%);
-  transition: transform 0.2s ease; /* Add a smooth transition effect */
-}
-
-/* Animation for the FontAwesome icon */
-.faq-question.open i {
-  transform: translateY(-50%) rotate(180deg); /* Rotate the icon */
-}
 
